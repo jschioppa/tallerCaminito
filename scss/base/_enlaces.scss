@@ -1,0 +1,20 @@
+@mixin enlaces{
+    text-decoration: none;
+    position: relative;
+    color: #e7c713;    
+}
+
+@mixin enlaces-after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 2px solid #e7c713;
+    transition: 0.4s;
+}
+
+@mixin enlaces-hover{
+    width: 100%;
+    color: #e7c713;
+}

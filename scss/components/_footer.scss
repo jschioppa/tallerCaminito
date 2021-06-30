@@ -1,0 +1,100 @@
+footer{
+    background-color: nth($colors, 2);
+    background: -webkit-linear-gradient(59deg, #e62a69);
+    background: linear-gradient(59deg, #e62a69, #5b001e,);
+    color: white;
+    margin-top: 5%;
+    a{
+        color: #fff;
+        font-size: 14px;
+        transition-duration: 0.2s;
+    }
+    a:hover{
+        color:#ebe05a;
+        text-decoration: none;
+    }
+}
+
+.copy{
+    font-size: 12px;
+    padding: 10px;
+     border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+    padding-top: 2em;
+    color: white;
+  }
+
+/*redes en el footer*/
+
+  .social-network{
+    ul{
+        list-style: none;
+        display: inline;
+        margin-left: 0;
+        padding: 0;
+        li{
+            display: inline;
+            margin: 0 5px;
+        }
+      }
+    a{
+        background-color: #F9F9F9;
+    }
+    a.icoFacebook:hover{
+        background-color: #3B5998;
+    }
+    a.icoInstagram:hover{
+        background-color: nth($colors , 5);
+        
+    }
+    }
+
+    
+.social-circle{
+    li{
+        a{
+            display: inline-block;
+            position: relative;
+            margin: 0 auto 0 auto;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            text-align: center;
+            width: 30px;
+            height: 30px;
+            font-size: 15px;
+        }
+        i{
+            margin: 0;
+            line-height: 30px;
+            text-align: center;
+            color: #595959;
+            -webkit-transition: all 0.8s;
+            -moz-transition: all 0.8s;
+            -o-transition: all 0.8s;
+            -ms-transition: all 0.8s;
+            transition: all 0.8s;
+        }
+    }
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoInstagram:hover i {
+  color: #fff;}
+

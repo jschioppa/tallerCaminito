@@ -1,0 +1,11 @@
+
+/*Condicion*/
+@mixin condicion($colorIf){
+    background-color: $colorIf;
+
+    @if $colorIf== violet {
+        font-style: italic;
+    } @else{
+        font-style: normal;
+    }
+}

@@ -1,0 +1,206 @@
+@charset "UTF-8";
+/*Base*/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito:wght@200&display=swap);
+/*Lista de fuentes*/
+/*Lista de colores*/
+/*Botones de Clases Presenciales y Clases Virtuales*/
+.button1 {
+  background-color: #b1013b;
+  border-radius: 5px;
+  position: relative;
+  letter-spacing: 0.25em;
+  padding: 1rem 2.5rem;
+  outline: none;
+  font-size: 15px;
+}
+.button1 a {
+  color: white;
+}
+
+.button2 {
+  background-color: #036964;
+  border-radius: 5px;
+  position: relative;
+  letter-spacing: 0.25em;
+  padding: 1rem 2.5rem;
+  outline: none;
+  font-size: 15px;
+}
+.button2 a {
+  color: white;
+}
+
+/*Condicion*/
+/*Components*/
+.card-body {
+  background-color: violet;
+  background-color: violet;
+  font-style: italic;
+}
+
+footer {
+  background-color: #5b001e;
+  background: -webkit-linear-gradient(59deg, #e62a69);
+  background: linear-gradient(59deg, #e62a69, #5b001e);
+  color: white;
+  margin-top: 5%;
+}
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+footer a:hover {
+  color: #ebe05a;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+/*redes en el footer*/
+.social-network ul {
+  list-style: none;
+  display: inline;
+  margin-left: 0;
+  padding: 0;
+}
+.social-network ul li {
+  display: inline;
+  margin: 0 5px;
+}
+.social-network a {
+  background-color: #F9F9F9;
+}
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+.social-network a.icoInstagram:hover {
+  background-color: #E1306C;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoInstagram:hover i {
+  color: #fff;
+}
+
+/*Header*/
+/*Reades-Header*/
+.redes-header {
+  display: flex;
+  background-color: #f5f5f2;
+  border-bottom: gray;
+}
+
+/*Navbar - header*/
+.navbar {
+  margin-top: 2%;
+}
+.navbar .container-fluid .collapse ul {
+  background-color: #5b001e;
+  background: -webkit-linear-gradient(59deg, #e62a69);
+  background: linear-gradient(59deg, #e62a69, #5b001e);
+}
+.navbar .container-fluid .collapse ul li a {
+  color: white;
+}
+
+/*Enlaces Navbar*/
+.navbar a {
+  text-decoration: none;
+  position: relative;
+  color: #e7c713;
+}
+
+.navbar a:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #e7c713;
+  transition: 0.4s;
+}
+
+.navbar a:hover:after {
+  width: 100%;
+  color: #e7c713;
+}
+
+/*General*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  font-family: "Nunito";
+  background-attachment: fixed;
+}
+
+body{
+  background-image: url(../images/fondo\ blanco\ efecto.jpg);
+  background-position:bottom;
+  background-attachment: fixed;
+}
+
+/*Sección Clases Virtuales*/
+.imagenZoom {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+
+.imagenPc {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

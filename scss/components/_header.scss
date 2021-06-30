@@ -1,0 +1,43 @@
+
+/*Header*/
+
+/*Reades-Header*/
+.redes-header{
+    @include redes;
+}
+
+/*Navbar - header*/
+.navbar{
+    margin-top:2%;
+    .container-fluid{
+        .collapse {
+            ul{
+                background-color: nth($colors, 2);
+                background: -webkit-linear-gradient(59deg, #e62a69);
+                background: linear-gradient(59deg, #e62a69, #5b001e,);
+                li{
+                    a{
+                        color: white;
+                    }   
+                }      
+            }
+        }
+    }
+}
+
+/*Enlaces Navbar*/
+
+.navbar{
+    a{
+    @include enlaces}
+}
+
+.navbar{
+    a:after{
+    @include enlaces-after}
+}
+
+.navbar{
+    a:hover:after{
+    @include enlaces-hover}
+}
