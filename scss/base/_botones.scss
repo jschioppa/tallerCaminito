@@ -1,42 +1,39 @@
 
 
 /*Botones de Clases Presenciales y Clases Virtuales*/
-$botones:(
-    clases-virtuales: nth($colors,1), 
-    clases-presenciales: nth($colors,8), 
-    border-radius:5px,
-);
-
-.button1{
-    background-color:map-get($map: $botones, $key:clases-virtuales );
-    border-radius: map-get($map: $botones, $key:border-radius);
-    position: relative;
-	letter-spacing: 0.25em;
-	padding: 1rem 2.5rem;
-	outline: none;
-	font-size: 15px;
-    a{
-        color: white;
-        
+.seccion-2{
+    .container{
+        .botones{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            .btn {
+                flex: 1 1 auto;
+                margin: 10px;
+                padding: 30px;
+                text-align: center;
+                text-transform: uppercase;
+                transition: 0.5s;
+                background-size: 200% auto;
+                color: white;
+               /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+                box-shadow: 0 0 20px #eee;
+                border-radius: 10px;
+               }              
+        }
     }
-
 }
 
-.button2{
-    background-color:map-get($map: $botones, $key:clases-presenciales );
-    border-radius: map-get($map: $botones, $key:border-radius);
-    position: relative;
-	letter-spacing: 0.25em;
-	padding: 1rem 2.5rem;
-	outline: none;
-	font-size: 15px;
-    a{
-        color:white;
-        
-    }
 
-
-}
-
-        
-   
+.btn:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+  
+  .btn-1 {
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+  }
+  
+  .btn-2 {
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+  }
