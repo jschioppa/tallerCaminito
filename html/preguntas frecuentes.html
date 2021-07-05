@@ -1,42 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 
-    <!--metaEtiquetas-->
-    <meta name="description" content="Ofrecemos clases de dibujo y pintura para niños y adultos. 
+  <!--metaEtiquetas-->
+  <meta name="description" content="Ofrecemos clases de dibujo y pintura para niños y adultos. 
     Clases personalizadas en grupos reducidos online y presenciales, sin necesidad de experiencia previa. 
     Aprende distintas técnicas artísticas para todos los niveles principiante, intermedio y avanzado.">
 
-    <meta name="keywords" content="Clases de dibujo. taller de arte, pintura, técnicas artísticas, dibujo básico, composición, acuarela, óleo, acrílico, pouring, técnicas mixtas, témpera, perspectiva, animé, caricaturas, ilustración.">
+  <meta name="keywords"
+    content="Clases de dibujo. taller de arte, pintura, técnicas artísticas, dibujo básico, composición, acuarela, óleo, acrílico, pouring, técnicas mixtas, témpera, perspectiva, animé, caricaturas, ilustración.">
 
-    <!--Protocolo Open Graph-->
-    <meta property="og:title" content="Taller Caminito | Clases de Arte online y presenciales">
-    <meta property="og:image" content="https://www.tusclases.com.ar/profesores/diana-sandra-lopreito.htm">
-    <meta property="og:author" content="Jacqueline Schio">
-    <meta property="og:description" content="Ofrecemos clases de dibujo y pintura para niños y adultos. 
+  <!--Protocolo Open Graph-->
+  <meta property="og:title" content="Taller Caminito | Clases de Arte online y presenciales">
+  <meta property="og:image" content="https://www.tusclases.com.ar/profesores/diana-sandra-lopreito.htm">
+  <meta property="og:author" content="Jacqueline Schio">
+  <meta property="og:description" content="Ofrecemos clases de dibujo y pintura para niños y adultos. 
     Clases personalizadas en grupos reducidos online y presenciales, sin necesidad de experiencia previa. 
     Aprende distintas técnicas artísticas para todos los niveles principiante, intermedio y avanzado">
-    <!--AOS-->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!--AOS-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <!---Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!---Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-    <!--Iconos-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!--Iconos-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <!---CSS-->
-    <link rel="stylesheet" href="./css/style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!---CSS-->
+  <link rel="stylesheet" href="./css/style.css">
 
-    <title>Taller Caminito | Conviértete en tu propio Artista</title>
+  <title>Taller Caminito | Conviértete en tu propio Artista</title>
 </head>
 
 
@@ -44,12 +45,14 @@
 
   <header>
     <!--Redes-->
-    <section>
+    <section class="redes-header">
       <div>
         <ul class="social-network social-circle container d-flex list-unstyled">
-          <li class="p-2"><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+          <li class="p-2"><a href="https://es-la.facebook.com/tallercaminito.art/" class="icoFacebook"
+              title="Facebook"><i class="fa fa-facebook"></i></a>
           </li>
-          <li class="p-2"><a href="#" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+          <li class="p-2"><a href="https://www.instagram.com/tallercaminito/" class="icoInstagram" title="Instagram"><i
+                class="fa fa-instagram"></i></a></li>
         </ul>
       </div>
     </section>
@@ -58,7 +61,9 @@
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="../images/logo transp rezise.png" alt="logo"></a>
+        <div class="logo">
+          <img src="../images/logo transp rezise.png" alt="logo de taller caminito">
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -66,16 +71,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav container d-flex justify-content-around shadow p-3 mb-5 bg-light rounded">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./nosotros.html">Nosotros</a>
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./cursos.html">Cursos</a>
+              <a class="nav-link" href="cursos.html">Cursos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./contacto.html">Contacto</a>
+              <a class="nav-link" href="contacto.html">Contacto</a>
             </li>
           </ul>
         </div>
@@ -161,19 +166,21 @@
               <h4>Más Información</h4>
               <ul class="list-unstyled">
                 <li><a href="#"></a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="./preguntas frecuentes.html">Preguntas Frecuentes</a></li>
-                <li><a href="./protocolo.html">Protocolo Covid</a></li>
-                <li><a href="./contacto.html">Dónde estamos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="preguntas frecuentes.html">Preguntas Frecuentes</a></li>
+                <li><a href="protocolo.html">Protocolo Covid</a></li>
+                <li><a href="contacto.html">Dónde estamos</a></li>
               </ul>
             </div>
           </div>
           <div class="col-md-3">
             <h4>Seguinos</h4>
-            <ul class="social-network social-circle list-unstyled">
-              <li class="p-2"><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-              <li class="p-2"><a href="#" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a>
+            <ul class="social-network social-circle container d-flex list-unstyled">
+              <li class="p-2"><a href="https://es-la.facebook.com/tallercaminito.art/" class="icoFacebook"
+                  title="Facebook"><i class="fa fa-facebook"></i></a>
               </li>
+              <li class="p-2"><a href="https://www.instagram.com/tallercaminito/" class="icoInstagram"
+                  title="Instagram"><i class="fa fa-instagram"></i></a></li>
             </ul>
           </div>
         </div>
