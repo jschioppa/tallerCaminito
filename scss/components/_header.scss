@@ -8,13 +8,14 @@
 
 /*Navbar - header*/
 .navbar{
-    margin-top:2%;
+    margin-top:0;
     .container-fluid{
         .collapse {
             ul{
                 background-color: nth($colors, 2);
                 background: -webkit-linear-gradient(59deg, #e62a69);
                 background: linear-gradient(59deg, #e62a69, #5b001e,);
+                background-blend-mode: hard-light;
                 li{
                     a{
                         color: white;

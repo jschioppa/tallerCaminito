@@ -66,6 +66,13 @@
 }
 
 /*Condicion*/
+/*Efecto en textos y encabezados*/
+h1 {
+  background: -webkit-linear-gradient(#d82a2a, #a6d2da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /*Components*/
 footer {
   background-color: #5b001e;
@@ -168,12 +175,13 @@ footer a:hover {
 
 /*Navbar - header*/
 .navbar {
-  margin-top: 2%;
+  margin-top: 0;
 }
 .navbar .container-fluid .collapse ul {
   background-color: #5b001e;
   background: -webkit-linear-gradient(59deg, #e62a69);
   background: linear-gradient(59deg, #e62a69, #5b001e);
+  background-blend-mode: hard-light;
 }
 .navbar .container-fluid .collapse ul li a {
   color: white;
