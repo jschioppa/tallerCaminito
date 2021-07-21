@@ -18,3 +18,19 @@
     width: 100%;
     color: #e7c713;
 }
+
+/*Enlaces simples*/
+
+.enlaces-notNavbar {
+    text-decoration: none;
+    -webkit-text-stroke-width: medium;
+    text-transform: lowercase;
+    color: rgb(13, 100, 89);
+    font-size: 20px;
+    &:hover{
+        text-decoration: none;
+        color: coral;
+        
+    }
+}
+

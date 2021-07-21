@@ -5,6 +5,20 @@
 @import url(https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito:wght@200&display=swap);
 /*Lista de fuentes*/
 /*Lista de colores*/
+/*Enlaces simples*/
+.enlaces-notNavbar {
+  text-decoration: none;
+  -webkit-text-stroke-width: medium;
+  text-transform: lowercase;
+  color: #0d6459;
+  font-size: 20px;
+}
+.enlaces-notNavbar:hover {
+  text-decoration: none;
+  color: coral;
+}
+
+/*Estilos cards*/
 .card {
   transition: 2s;
 }
