@@ -5,6 +5,13 @@
 @import url(https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito:wght@200&display=swap);
 /*Lista de fuentes*/
 /*Lista de colores*/
+.card {
+  transition: 2s;
+}
+.card:hover {
+  transform: scale(1.2);
+}
+
 /*Botones de Clases Presenciales y Clases Virtuales*/
 .seccion-2 .container .botones {
   display: flex;
