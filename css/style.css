@@ -169,19 +169,30 @@ footer a:hover {
 /*Reades-Header*/
 .redes-header {
   display: flex;
-  background-color: #f5f5f2;
-  border-bottom: gray;
+}
+
+#header, .logo {
+  text-align-last: center;
+}
+#header img, .logo img {
+  width: 15%;
+}
+
+#header .logo {
+  padding: 10px;
+}
+
+.navbar-header {
+  background: linear-gradient(59deg, #e62a69, #5b001e);
+  background-blend-mode: hard-light;
+  background-color: white;
+  font-weight: bolder;
+  min-width: -webkit-fill-available;
 }
 
 /*Navbar - header*/
 .navbar {
   margin-top: 0;
-}
-.navbar .container-fluid .collapse ul {
-  background-color: #5b001e;
-  background: -webkit-linear-gradient(59deg, #e62a69);
-  background: linear-gradient(59deg, #e62a69, #5b001e);
-  background-blend-mode: hard-light;
 }
 .navbar .container-fluid .collapse ul li a {
   color: white;
@@ -207,6 +218,11 @@ footer a:hover {
 .navbar a:hover:after {
   width: 100%;
   color: #e7c713;
+}
+
+.logo-encababezado {
+  background: #3ce0f4;
+  background: linear-gradient(90deg, rgba(60, 224, 244, 0.4178046218) 17%, white 46%, rgba(248, 125, 187, 0.2161239496) 98%);
 }
 
 /*General*/

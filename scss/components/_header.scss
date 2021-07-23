@@ -6,16 +6,34 @@
     @include redes;
 }
 
+#header, .logo{
+        text-align-last: center;
+        img{
+            width: 15%;
+        }
+}
+
+#header{
+    .logo{
+        padding: 10px;
+    }
+}
+
+.navbar-header{
+    background: linear-gradient(59deg, #e62a69, #5b001e,);
+    background-blend-mode: hard-light;
+    background-color: white;
+    font-weight: bolder;
+    min-width: -webkit-fill-available;
+}
+
 /*Navbar - header*/
 .navbar{
     margin-top:0;
     .container-fluid{
         .collapse {
             ul{
-                background-color: nth($colors, 2);
-                background: -webkit-linear-gradient(59deg, #e62a69);
-                background: linear-gradient(59deg, #e62a69, #5b001e,);
-                background-blend-mode: hard-light;
+
                 li{
                     a{
                         color: white;
@@ -41,4 +59,10 @@
 .navbar{
     a:hover:after{
     @include enlaces-hover}
+}
+
+
+.logo-encababezado{
+    background: rgb(60,224,244);
+    background: linear-gradient(90deg, rgba(60,224,244,0.41780462184873945) 17%, rgba(255,255,255,1) 46%, rgba(248,125,187,0.21612394957983194) 98%);
 }
