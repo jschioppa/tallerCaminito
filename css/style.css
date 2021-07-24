@@ -68,7 +68,8 @@
 /*Condicion*/
 /*Efecto en textos y encabezados*/
 h1 {
-  background: -webkit-linear-gradient(#d82a2a, #a6d2da);
+  background: #01c6ff;
+  background: linear-gradient(90deg, rgba(1, 198, 255, 0.731530112) 0%, #f2064e 76%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

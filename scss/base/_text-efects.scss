@@ -2,7 +2,8 @@
 /*Efecto en textos y encabezados*/
 
 h1 {
-    background: -webkit-linear-gradient(rgb(216, 42, 42), rgb(166, 210, 218));
+    background: rgb(1,198,255);
+    background: linear-gradient(90deg, rgba(1,198,255,0.7315301120448179) 0%, rgba(242,6,78,1) 76%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
