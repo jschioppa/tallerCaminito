@@ -73,6 +73,10 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
+.carousel .carousel-inner .carousel-item img {
+  height: max-content;
+}
+
 /*Components*/
 footer {
   background-color: #5b001e;
@@ -166,7 +170,6 @@ footer a:hover {
 }
 
 /*Header*/
-/*Reades-Header*/
 .redes-header {
   display: flex;
 }
